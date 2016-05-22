@@ -91,7 +91,7 @@ $(document).ready(function() {
         verticalAlign: 'top',
         title: 'Ceremony Location',  
         infoWindow: {
-            content: '<div class="note">Ceremony</div><h4 class="map-title script">St Paul\'s Church</h4><div class="address"><span class="region">Address line goes here</span><br><span class="postal-code">Postcode</span><br><span class="city-name">City</span></div>'
+            content: '<div class="note">Ceremony</div><h4 class="map-title script">CJ\'s Off The Square</h4><div class="address"><span class="region">Address line goes here</span><br><span class="postal-code">Postcode</span><br><span class="city-name">City</span></div>'
         }
         
         
