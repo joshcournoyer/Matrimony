@@ -82,7 +82,7 @@ $(document).ready(function() {
         lat: 35.927812,
         lng: -86.870084,
         scrollwheel: false,
-        zoom: 13,
+        zoom: 9,
     });
     
     map.addMarker({
