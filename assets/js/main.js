@@ -86,8 +86,8 @@ $(document).ready(function() {
     });
     
     map.addMarker({
-        lat: 50.980187,
-        lng: -3.179117,
+        lat: 35.927812, 
+        lng: -86.870084,
         verticalAlign: 'top',
         title: 'Ceremony Location',  
         infoWindow: {
@@ -98,20 +98,11 @@ $(document).ready(function() {
     });
     
 
-    map.addMarker({
-        lat: 50.969747,
-        lng: -3.199985,
-        title: 'Reception Location',      
-        infoWindow: {
-            content: '<div class="note">Reception</div><h4 class="map-title script">The Manor House</h4><div class="address"><span class="region">Address line goes here</span><br><span class="postal-code">Postcode</span><br><span class="city-name">City</span></div>'
-        } 
-        
-    });
+  
     
     /*display marker 1 address on load */
     google.maps.event.trigger(map.markers[0], 'click');
-    /*display marker 2 address on load */
-    google.maps.event.trigger(map.markers[1], 'click');
+  
     
     
     
