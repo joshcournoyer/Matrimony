@@ -76,32 +76,42 @@ $(document).ready(function() {
     }, 1000);
      
 
-    /* ======= Google Map ======= */
+ /* ======= Google Map ======= */
     map = new GMaps({
         div: '#map',
-        lat: 50.980187,
-        lng: -3.179117,
+        lat: 35.927812,
+        lng: -86.870084,
         scrollwheel: false,
         zoom: 14,
     });
     
     map.addMarker({
-        lat: 35.927812, 
+        lat: 35.927812,
         lng: -86.870084,
         verticalAlign: 'top',
         title: 'Ceremony Location',  
         infoWindow: {
-            content: '<div class="note">Ceremony</div><h4 class="map-title script">CJ\'s Off The Square</h4><div class="address"><span class="region">Address line goes here</span><br><span class="postal-code">Postcode</span><br><span class="city-name">City</span></div>'
+            content: '<div class="note">Ceremony & Reception</div><h4 class="map-title script">CJ\'s Off The Square</h4><div class="address"><span class="region">218 3rd Ave N</span><br><span class="postal-code">37064</span><br><span class="city-name">Franklin, TN</span></div>'
         }
         
         
     });
     
 
+    map.addMarker({
+        lat: 35.947489, 
+        lng: -86.806834,
+        title: 'Reception Location',      
+        infoWindow: {
+            content: '<div class="note">Lodging</div><h4 class="map-title script">Franklin Marriott Cool Springs</h4><div class="address"><span class="region">700 Cool Springs Blvd</span><br><span class="postal-code">37067</span><br><span class="city-name">Franklin, TN</span></div>'
+        } 
+        
   
     
     /*display marker 1 address on load */
     google.maps.event.trigger(map.markers[0], 'click');
+    /*display marker 2 address on load */
+    google.maps.event.trigger(map.markers[1], 'click');
   
     
     
