@@ -82,7 +82,7 @@ $(document).ready(function() {
         lat: 35.927812,
         lng: -86.870084,
         scrollwheel: false,
-        zoom: 14,
+        zoom: 13,
     });
     
     map.addMarker({
@@ -106,6 +106,7 @@ $(document).ready(function() {
             content: '<div class="note">Lodging</div><h4 class="map-title script">Franklin Marriott Cool Springs</h4><div class="address"><span class="region">700 Cool Springs Blvd</span><br><span class="postal-code">37067</span><br><span class="city-name">Franklin, TN</span></div>'
         } 
         
+    });
   
     
     /*display marker 1 address on load */
