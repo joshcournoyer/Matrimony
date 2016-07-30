@@ -548,7 +548,7 @@ label {
 }
 /* ======= Story Section ======= */
 .story-section {
-  background: #413a38 url('../images/storyfull.jpg') no-repeat 50% top;
+  background: #413a38 url('../images/storybg.jpg') no-repeat 50% top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
